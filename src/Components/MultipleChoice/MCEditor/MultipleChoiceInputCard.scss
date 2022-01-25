@@ -1,0 +1,92 @@
+@import '../../../scss/colors.scss';
+@import '../../../scss/fonts.scss';
+@import '../../../scss/devices.scss';
+
+
+
+
+.MultipleChoiceInputCard{
+    height: 100%;
+    width: 100%;
+
+.MCForm{
+display: grid;
+    grid-template-rows: 20% auto;
+height: 100%;
+width: 100%;
+
+.Options{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 40% 20%;
+    justify-items: center;
+    align-items: center;
+
+
+
+    .OptionInput{
+        width: 90%;
+    }
+ 
+.Red{
+    height: 96%;
+    width: 96%;
+
+  box-shadow:         3px 3px 5px 6px #ccc;
+    background-color: $choicer;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.Blue{
+    height: 96%;
+    width: 96%;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    background-color: $choiceb;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}.Yellow{
+    height: 96%;
+    width: 96%;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    background-color: $choicep;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}.Green{
+    height: 96%;
+    width: 96%;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    background-color: $choiceg;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.Points{
+    height: 96%;
+    width: 96%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+   
+}
+.Time{
+    height: 96%;
+    width: 96%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+
+}
+
+    
+}
+
+
+}

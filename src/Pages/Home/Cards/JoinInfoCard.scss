@@ -1,0 +1,31 @@
+@import '../../../scss/colors.scss';
+@import '../../../scss/fonts.scss';
+@import '../../../scss/devices.scss';
+
+.JoinInfoCard {
+  align-items: center;
+  justify-content: center;
+ 
+  .Icons{
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    align-items: center;
+    justify-items: center;
+     
+     .Icon{
+         height: 6rem;
+         width: auto;
+         margin-top: 2rem;
+    
+     }
+    }
+}
+
+.JoinInfoCard:hover {
+
+  cursor: pointer;
+
+}
+
+@include desktop {
+}

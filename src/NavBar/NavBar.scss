@@ -1,0 +1,131 @@
+@import '../scss/colors.scss';
+@import '../scss/fonts.scss';
+@import '../scss/devices.scss';
+
+.NavBar {
+  background-color: rgba(black, 0.98);
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+
+  display: grid;
+  grid-template-columns: (33% auto);
+  grid-template-rows: 100%;
+  align-items: center;
+
+
+  box-shadow:         3px 3px 5px 6px #ccc;
+
+  a {
+    color: white;
+    text-decoration: none;
+    .Icon {
+      height: 5rem;
+      width: auto;
+    }
+    .LogoIcon{
+      height: 3rem;
+      width: auto;
+    }
+  }
+
+  .active{
+    color: $scienceblue;
+  }
+
+  .Expander {
+    .ExpandButton {
+      outline: none;
+      border: none;
+      background-color: transparent;
+      .ExpandIcon {
+        height: 2rem;
+        width: auto;
+      }
+    }
+  }
+
+  .MainNav {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    justify-items: center;
+    align-items: center;
+    .ProfileIcon {
+      border-radius: 50%;
+      height: 2rem;
+      width: auto;
+    }
+    .Text {
+      display: none;
+    }
+  }
+
+  .SecNav {
+    display: none;
+  }
+
+  .MobileNav {
+    position: absolute;
+    top: 0;
+    display: block;
+    z-index: 999;
+    background-color: rgba($scienceblue, 0.98);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    
+  }
+}
+
+@include desktop {
+  .NavBar {
+    display: grid;
+    grid-template-columns: repeat(40% 60%);
+    //grid-template-rows: 100%;
+
+    a {
+      color: white;
+    }
+
+    .active{
+      color: $scienceblue;
+    }
+
+    .Expander {
+      display: none;
+    }
+
+    .MainNav {
+    }
+
+    .SecNav {
+      display: block;
+      display: grid;
+      grid-template-columns: repeat(4, 25%);
+      grid-template-rows: 100%;
+      position: relative;
+      justify-items: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+
+    .MobileNav {
+      display: block;
+      display: grid;
+      grid-template-columns: (repeat(4, 25%));
+      grid-template-rows: 100%;
+      position: relative;
+      height: 100%;
+      width: 100%;
+      top: unset;
+      bottom: unset;
+      z-index: 0;
+      background-color: unset;
+      justify-items: center;
+      align-items: center;
+    }
+  }
+}

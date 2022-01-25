@@ -1,0 +1,51 @@
+@import '../../../scss/colors.scss';
+@import '../../../scss/fonts.scss';
+@import '../../../scss/devices.scss';
+
+.CreateInfoCard {
+  align-items: center;
+  justify-content: center;
+
+ .Icons{
+display: grid;
+grid-template-columns: 33% auto 33%;
+align-items: center;
+justify-items: center;
+
+.Content{
+
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+}
+.Game{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.Activity{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+}
+ 
+ .Icon{
+     height: 6rem;
+     width: auto;
+     margin-top: 2rem;
+
+ }
+}
+}
+
+.CreateInfoCard:hover {
+
+  cursor: pointer;
+
+}
+
+@include desktop {
+}

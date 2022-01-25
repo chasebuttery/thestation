@@ -1,0 +1,23 @@
+@import '../scss/colors.scss';
+@import '../scss/fonts.scss';
+@import '../scss/devices.scss';
+
+.GameHostPage {
+
+
+    button{
+        margin: 1rem 1rem;
+        width: 6rem;
+        height: 2rem;
+        color: white;
+        border: black;
+        border-radius: .2rem;
+            
+        background: rgb(16,176,219);
+        background: linear-gradient(90deg, rgba(16,176,219,1) 25%, rgba(0,194,240,1) 50%, rgba(76,255,68,1) 100%);
+  
+      }
+
+
+
+}

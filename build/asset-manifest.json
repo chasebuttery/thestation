@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21677f6f.chunk.css",
+    "main.js": "/static/js/main.c508bcf5.chunk.js",
+    "main.js.map": "/static/js/main.c508bcf5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2f0d785b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2f0d785b.js.map",
+    "static/js/2.99a817d4.chunk.js": "/static/js/2.99a817d4.chunk.js",
+    "static/js/2.99a817d4.chunk.js.map": "/static/js/2.99a817d4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.30e3d2f2d77b0acab26e32c65539c93b.js": "/precache-manifest.30e3d2f2d77b0acab26e32c65539c93b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.21677f6f.chunk.css.map": "/static/css/main.21677f6f.chunk.css.map",
+    "static/js/2.99a817d4.chunk.js.LICENSE.txt": "/static/js/2.99a817d4.chunk.js.LICENSE.txt",
+    "static/media/Content.png": "/static/media/Content.30614336.png",
+    "static/media/Individual.png": "/static/media/Individual.b4e99ef3.png",
+    "static/media/Miami.png": "/static/media/Miami.b4a68f33.png",
+    "static/media/Tenno.png": "/static/media/Tenno.ef78506b.png",
+    "static/media/discussion.png": "/static/media/discussion.1770edd1.png",
+    "static/media/fakeouticon.png": "/static/media/fakeouticon.28924b54.png",
+    "static/media/game.png": "/static/media/game.3204b0fa.png",
+    "static/media/logof.png": "/static/media/logof.87dd797e.png",
+    "static/media/menu1.png": "/static/media/menu1.174d5fd5.png",
+    "static/media/prof.png": "/static/media/prof.647678d0.png",
+    "static/media/profile.png": "/static/media/profile.5c51a8e2.png",
+    "static/media/r.png": "/static/media/r.74beef0f.png",
+    "static/media/r1.png": "/static/media/r1.1e9aa94b.png",
+    "static/media/r2.png": "/static/media/r2.00384dc9.png",
+    "static/media/rocket32p.png": "/static/media/rocket32p.b96283a0.png",
+    "static/media/stationappdemo.png": "/static/media/stationappdemo.82e23917.png",
+    "static/media/teamup.png": "/static/media/teamup.ab2fd001.png",
+    "static/media/trivia.png": "/static/media/trivia.0fafdd26.png",
+    "static/media/NavBar.scss": "/static/media/zeronero.d4f47b94.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f0d785b.js",
+    "static/js/2.99a817d4.chunk.js",
+    "static/css/main.21677f6f.chunk.css",
+    "static/js/main.c508bcf5.chunk.js"
+  ]
+}

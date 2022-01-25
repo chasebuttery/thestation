@@ -1,0 +1,26 @@
+@import '../../../scss/colors.scss';
+@import '../../../scss/fonts.scss';
+@import '../../../scss/devices.scss';
+
+
+
+  .Select{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15rem;
+    margin-top: 2rem;
+
+    .Image{
+      margin: 1rem 1rem;
+      background-color: $choiceb;
+
+    box-shadow:         3px 3px 5px 6px #ccc;
+    }
+    .Video{
+      margin: 1rem 1rem;
+      background-color: $choicer;
+
+      box-shadow:         3px 3px 5px 6px #ccc;
+
+    }
+  }

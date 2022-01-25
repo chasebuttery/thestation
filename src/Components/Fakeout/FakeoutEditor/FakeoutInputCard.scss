@@ -1,0 +1,20 @@
+@import '../../../scss/colors.scss';
+@import '../../../scss/fonts.scss';
+@import '../../../scss/devices.scss';
+
+.FakeoutInputCard{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: 100%;
+    width: 100%;
+    .Field{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        margin: 1rem 2rem;
+
+        .Label{
+            margin-top: 1rem;
+
+        }
+    }
+}

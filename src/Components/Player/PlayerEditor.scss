@@ -1,0 +1,18 @@
+
+
+
+
+.PlayerEditor{
+
+    height: 8rem;
+    width: auto;
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    justify-items: center;
+    align-items: center;
+
+.Player{
+    height: 4rem;
+    width: auto;
+}
+}

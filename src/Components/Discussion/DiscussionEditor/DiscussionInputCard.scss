@@ -1,0 +1,15 @@
+@import '../../../scss/colors.scss';
+@import '../../../scss/fonts.scss';
+@import '../../../scss/devices.scss';
+
+.DiscussionInputCard{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    .Field{ 
+        display: grid;
+        grid-template-rows: 20% 80%;
+        margin: 1rem 2rem;
+        
+    }
+}

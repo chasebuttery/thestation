@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Bellota+Text|Cinzel|Merriweather|Poppins&display=swap');
+@import './scss/fonts.scss';
+@import './scss/colors.scss';
+
+.App {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 4rem auto;
+
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Zero Nero';
+  //color: black;
+  background-color: $color-primary;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}

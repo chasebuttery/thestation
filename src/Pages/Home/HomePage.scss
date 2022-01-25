@@ -1,0 +1,53 @@
+@import '../../scss/colors.scss';
+@import '../../scss/fonts.scss';
+@import '../../scss/devices.scss';
+
+.HomePage {
+  align-items: center;
+  justify-content: center;
+ .LogoName{
+   margin-top: -3rem;
+   height: auto;
+   width: 12rem;
+   margin-bottom: -5rem;
+ }
+ .slogan{
+   color: $darkblue;
+   margin: 1rem 0 1rem 0;
+ }
+ h1{
+   color: black;
+   font-size: 1.5rem;
+   pagging: 1rem 1rem;
+ }
+
+ 
+
+ p{
+   color: black;
+   font-size: .8rem;
+   margin: 0rem 1rem;
+ }
+
+
+ .Info{
+   margin-top: 2rem;
+   display: grid;
+   grid-template-rows: 14rem 3rem 14rem 3rem 14rem;
+   grid-template-columns: 100%;
+   box-shadow: 10px 10px 8px #000000;
+   background-color: white;
+ }
+ .LineDiv{
+  height: .5rem;
+  margin: 1rem 1rem;
+  box-shadow: 10px 10px 8px #1d1c1c;
+  background: $scienceblue;
+  //background: rgb(16,176,219);
+  //background: linear-gradient(90deg, rgba(16,176,219,1) 25%, rgba(0,194,240,1) 50%, rgba(76,255,68,1) 100%);
+ }
+
+}
+
+@include desktop {
+}

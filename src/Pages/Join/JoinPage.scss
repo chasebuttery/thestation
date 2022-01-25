@@ -1,0 +1,45 @@
+@import '../../scss/colors.scss';
+@import '../../scss/fonts.scss';
+@import '../../scss/devices.scss';
+.JoinPage {
+  .JoinGameForm{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 1rem 0;
+
+  .JoinButton{
+    
+    margin: 1rem 1rem;
+    width: 6rem;
+    height: 4rem;
+    color: white;
+    border: black;
+    border-radius: .2rem;
+    background: $scienceblue;
+
+
+font-family: 'Zero Nero';
+
+    box-shadow: 10px 10px 8px #1d1c1c;
+
+    text-shadow: 1px 1px black;
+    
+    
+//     background: rgb(16,176,219);
+// background: linear-gradient(90deg, rgba(16,176,219,1) 25%, rgba(0,194,240,1) 50%, rgba(76,255,68,1) 100%);
+  
+
+}
+
+.JoinButton:hover{
+      
+  background-color: black;
+  cursor: pointer
+
+}
+
+
+}
+}

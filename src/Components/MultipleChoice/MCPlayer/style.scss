@@ -1,0 +1,107 @@
+@import '../../../scss/colors.scss';
+@import '../../../scss/fonts.scss';
+@import '../../../scss/devices.scss';
+
+
+
+
+.MultipleChoiceHost {
+
+    .Options{
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        grid-template-rows: 50% 50%;
+        margin: 1rem 1rem;
+        justify-items: center;
+        align-items: center;
+        
+        height: 18rem;
+
+    .Optionred{
+        display: grid;
+            height: 96%;
+            width: 96%;
+        background-color: $sciencered;
+        align-items: center;
+        border-radius: 10%;
+    }
+    .Optionblue{
+        display: grid;
+        height: 96%;
+        width: 96%;
+    background-color: $scienceblue;
+    align-items: center;
+    border-radius: 10%;
+    }
+    .Optionyellow{
+        display: grid;
+            height: 96%;
+            width: 96%;
+        background-color: $sciencey;
+        align-items: center;
+        border-radius: 10%;
+    }
+    .Optiongreen{
+        display: grid;
+            height: 96%;
+            width: 96%;
+        background-color: $sciencegreen;
+        align-items: center;
+        border-radius: 10%;
+    }
+
+    } 
+}
+
+
+.User {
+
+    .Options{
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        grid-template-rows: 50% 50%;
+        margin: 1rem 1rem;
+        justify-items: center;
+        align-items: center;
+        
+        height: 18rem;
+
+    .Optionred{
+        display: grid;
+            height: 96%;
+            width: 96%;
+        background-color: $sciencered;
+        align-items: center;
+        border-radius: 10%;
+    }
+    .Optionblue{
+        display: grid;
+        height: 96%;
+        width: 96%;
+    background-color: $scienceblue;
+    align-items: center;
+    border-radius: 10%;
+    }
+    .Optionyellow{
+        display: grid;
+            height: 96%;
+            width: 96%;
+        background-color: $sciencey;
+        align-items: center;
+        border-radius: 10%;
+    }
+    .Optiongreen{
+        display: grid;
+            height: 96%;
+            width: 96%;
+        background-color: $sciencegreen;
+        align-items: center;
+        border-radius: 10%;
+    }
+
+}
+
+    
+  }
